@@ -288,7 +288,7 @@ export const perfumes = [
   notas: ["Pomelo", "Pimienta Negra", "Lavanda", "Salvia", "Musgo"],
   stock: true,
   precio: 41000,
-  imagen: "/perfumes/tester-icon-edt.jfif",
+  imagen: "/perfumes/tester-icon-edt.jpg",
 },
 {
   nombre: "TESTER INVICTUS VICTORY ELIXIR",
@@ -310,6 +310,6 @@ export const perfumes = [
   notas: ["Cardamomo", "Toffee", "Ámbar", "Maderas"],
   stock: true,
   precio: 150000,
-  imagen: "/perfumes/azzaro-the-most-wanted.jfif",
+  imagen: "/perfumes/azzaro-the-most-wanted.jpg",
 },
 ];
