@@ -67,7 +67,7 @@ export default function Footer() {
               </a>
 
               <a
-                href="https://instagram.com/apolostylo"
+                href="https://www.instagram.com/apolo.stylo?igsh=dm1ucm1jOW9jcjNm"
                 target="_blank"
                 rel="noopener noreferrer"
               >

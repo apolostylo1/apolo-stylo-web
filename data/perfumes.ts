@@ -86,7 +86,7 @@ export const perfumes = [
   descripcion: "Fresco, cítrico y sofisticado.",
   notas: ["Pomelo", "Limón", "Menta", "Jengibre", "Sándalo", "Vetiver"],
   stock: true,
-  precio: 63000,
+  precio: 75000,
   imagen: "/perfumes/club-de-nuit-iconic.jpg",
 },
 {
@@ -97,7 +97,7 @@ export const perfumes = [
   descripcion: "Fragancia intensa con excelente proyección.",
   notas: ["Canela", "Bergamota", "Flor de Azahar", "Ámbar", "Incienso"],
   stock: true,
-  precio: 61000,
+  precio: 74000,
   imagen: "/perfumes/hawas-fire.jpg",
 },
 {
@@ -152,7 +152,7 @@ export const perfumes = [
   descripcion: "Fresco y acuático para cualquier ocasión.",
   notas: ["Pomelo", "Mandarina", "Lavanda", "Notas Marinas", "Vetiver"],
   stock: true,
-  precio: 58000,
+  precio: 65000,
   imagen: "/perfumes/odyssey-aqua.jpg",
 },
 {
