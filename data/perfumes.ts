@@ -134,6 +134,17 @@ export const perfumes = [
   imagen: "/perfumes/khamrah-normal.jpg",
 },
 {
+  nombre: "LIQUID BRUN", 
+  tipo: "Perfume",
+  categoria: "Árabe",
+  marca: "French Avenue", 
+  descripcion: ". Dulce y elegante. Perfecto para noches", 
+  notas: ["Canela", "vainilla", "praliné", "cardamomo"], 
+  stock: true,
+  precio: 86000, 
+  imagen: "/perfumes/liquid-brun.jpg", 
+},
+{
   nombre: "THE KINGDOM",
   tipo: "Perfume",
   categoria: "Árabe",

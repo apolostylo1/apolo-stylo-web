@@ -28,12 +28,6 @@ export default function Navbar() {
           </li>
 
           <li>
-            <a href="#promociones" className="transition hover:text-[#D4AF37]">
-              Promociones
-            </a>
-          </li>
-
-          <li>
             <a href="#contacto" className="transition hover:text-[#D4AF37]">
               Contacto
             </a>
@@ -68,15 +62,6 @@ export default function Navbar() {
                 onClick={() => setMenuAbierto(false)}
               >
                 Catálogo
-              </a>
-            </li>
-
-            <li>
-              <a
-                href="#promociones"
-                onClick={() => setMenuAbierto(false)}
-              >
-                Promociones
               </a>
             </li>
 
