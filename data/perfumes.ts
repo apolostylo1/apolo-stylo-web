@@ -31,7 +31,7 @@ export const perfumes = [
   descripcion: "Dulce, especiado y nocturno con vainilla y ámbar.",
   notas: ["Manzana", "Canela", "Lavanda", "Flor de Azahar", "Vainilla", "Ámbar", "Pachulí"],
   stock: true,
-  precio: 95000,
+  precio: 100000,
   imagen: "/perfumes/9pm-night-out.jpg",
 },
 {
@@ -41,7 +41,7 @@ export const perfumes = [
   marca: "French Avenue",
   descripcion: "Fragancia intensa con gran duración y excelente proyección.",
   notas: ["Bergamota", "Jengibre", "Ámbar Gris", "Almizcle", "Maderas"],
-  stock: true,
+  stock: false,
   precio: 63000,
   imagen: "/perfumes/aether-extrait.jpg",
 },
@@ -108,7 +108,7 @@ export const perfumes = [
   descripcion: "Fragancia intensa con excelente proyección.",
   notas: ["Canela", "Bergamota", "Flor de Azahar", "Ámbar", "Incienso"],
   stock: true,
-  precio: 74000,
+  precio: 72000,
   imagen: "/perfumes/hawas-fire.jpg",
 },
 {
@@ -119,7 +119,7 @@ export const perfumes = [
   descripcion: "Fresco, acuático y cítrico con un fondo ambarado.",
   notas: ["Bergamota", "Manzana", "Limón", "Flor de Azahar", "Cardamomo", "Ámbar Gris", "Almizcle", "Madera"],
   stock: true,
-  precio: 85000,
+  precio: 81000,
   imagen: "/perfumes/hawas-ice.jpg",
 },
 {
@@ -229,7 +229,7 @@ export const perfumes = [
   descripcion: "Limpio, elegante y muy versátil.",
   notas: ["Limón", "Lavanda", "Neroli", "Cedro", "Almizcle Blanco"],
   stock: true,
-  precio: 50000,
+  precio: 57000,
   imagen: "/perfumes/odyssey-home-white.jpg",
 },
 {
@@ -283,7 +283,7 @@ export const perfumes = [
   marca: "Emir",
   descripcion: "Amaderado con muy buena duración.",
   notas: ["Cuero", "Azafrán", "Cedro", "Sándalo", "Ámbar"],
-  stock: true,
+  stock: false,
   precio: 54000,
   imagen: "/perfumes/stallion-53.jpg",
 },
