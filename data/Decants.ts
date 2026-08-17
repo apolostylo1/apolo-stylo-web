@@ -89,4 +89,14 @@ export const decants = [
   precio: 11000,
   imagen: "/decants/scandal-edt.jpg",
 },
+{
+  tipo: "Decant",
+  nombre: "9PM NIGHT OUR",
+  categoria: "Árabe",
+  marca: "Afnan",
+  descripcion: "Decant original de 5 ml.",
+  stock: true,
+  precio: 7000,
+  imagen: "/decants/9pm-night-out.jpg",
+},
 ];
