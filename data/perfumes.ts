@@ -378,4 +378,18 @@ export const perfumes = [
   precio: 150000,
   imagen: "/perfumes/azzaro-the-most-wanted.jpg",
 },
+
+// ================= NICHO =================
+
+{
+  nombre: "ARABIANS TONKA",
+  tipo: "Perfume",
+  categoria: "Nicho",
+  marca: "Montale",
+  descripcion: "Dulce, intenso y sofisticado, con una combinación envolvente.",
+  notas: ["Azafrán", "Rosa", "Oud", "Haba Tonka", "Caña de Azúcar", "Ámbar"],
+  stock: true,
+  precio: 220000,
+  imagen: "/perfumes/arabians-tonka.jpg",
+},
 ];

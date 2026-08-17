@@ -124,6 +124,16 @@ export default function Catalog() {
         >
           Diseñador
         </button>
+        <button
+  onClick={() => setCategoria("Nicho")}
+  className={`rounded-full px-5 py-2 transition ${
+    categoria === "Nicho"
+      ? "bg-[#D4AF37] text-black"
+      : "bg-[#161B22] text-white"
+  }`}
+>
+  Nicho
+</button>
 
       </div>
 
