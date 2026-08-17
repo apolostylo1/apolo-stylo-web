@@ -119,7 +119,7 @@ export const perfumes = [
   descripcion: "Fresco, acuático y cítrico con un fondo ambarado.",
   notas: ["Bergamota", "Manzana", "Limón", "Flor de Azahar", "Cardamomo", "Ámbar Gris", "Almizcle", "Madera"],
   stock: true,
-  precio: 81000,
+  precio: 77000,
   imagen: "/perfumes/hawas-ice.jpg",
 },
 {
@@ -207,7 +207,7 @@ export const perfumes = [
   descripcion: "Fresco y acuático para cualquier ocasión.",
   notas: ["Pomelo", "Mandarina", "Lavanda", "Notas Marinas", "Vetiver"],
   stock: true,
-  precio: 67000,
+  precio: 65000,
   imagen: "/perfumes/odyssey-aqua.jpg",
 },
 {
@@ -272,8 +272,8 @@ export const perfumes = [
   marca: "Maison Alhambra",
   descripcion: "Inspirado en Dior Sauvage.",
   notas: ["Bergamota", "Pimienta", "Lavanda", "Ambroxan", "Cedro"],
-  stock: true,
-  precio: 41000,
+  stock: false,
+  precio: 50000,
   imagen: "/perfumes/salvo-edp.jpg",
 },
 {
@@ -283,7 +283,7 @@ export const perfumes = [
   marca: "Emir",
   descripcion: "Amaderado con muy buena duración.",
   notas: ["Cuero", "Azafrán", "Cedro", "Sándalo", "Ámbar"],
-  stock: false,
+  stock: true,
   precio: 54000,
   imagen: "/perfumes/stallion-53.jpg",
 },
@@ -339,7 +339,7 @@ export const perfumes = [
   descripcion: "Floral, femenino y delicado.",
   notas: ["Orquídea", "Heliotropo", "Mandarina", "Vainilla", "Sándalo"],
   stock: true,
-  precio: 52000,
+  precio: 54000,
   imagen: "/perfumes/yara-rosa.jpg",
 },
 
