@@ -16,7 +16,7 @@ export const decants = [
   marca: "Rasasi",
   descripcion: "Decant original de 5 ml.",
   stock: true,
-  precio: 4500,
+  precio: 5000,
   imagen: "/decants/hawas-for-him.jpg",
 },
 {
@@ -96,7 +96,7 @@ export const decants = [
   marca: "Afnan",
   descripcion: "Decant original de 5 ml.",
   stock: true,
-  precio: 7000,
+  precio: 8000,
   imagen: "/decants/9pm-night-out.jpg",
 },
 ];
