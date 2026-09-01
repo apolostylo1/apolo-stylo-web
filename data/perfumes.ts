@@ -101,6 +101,18 @@ export const perfumes = [
   imagen: "/perfumes/club-de-nuit-iconic.jpg",
 },
 {
+  nombre: "Emaan",
+  tipo: "Perfume",
+  categoria: "Árabe",
+  marca: "Lattafa",
+  descripcion: "Fragancia floral, dulce. Ideal para uso diario y ocasiones especiales.",
+  notas: ["Limón", "Grosella negra", "Azahar", "Rosa", "Jazmín", "Vainilla", "Pachulí"],
+  stock: true,
+  precio: 50000,
+  imagen: "/perfumes/emaan.jpg",
+},
+
+{
   nombre: "HAWAS FIRE",
   tipo: "Perfume",
   categoria: "Árabe",
@@ -187,6 +199,17 @@ export const perfumes = [
   stock: true,
   precio: 58000,
   imagen: "/perfumes/lattafa-the-kingdom.jpg",
+},
+{
+  nombre: "Mayar",
+  tipo: "Perfume",
+  categoria: "Árabe",
+  marca: "Lattafa",
+  descripcion: "Fragancia floral, frutal y dulce. Femenina, fresca y versátil, ideal para el uso diario.",
+  notas: ["Lichi", "Frambuesa", "Hoja de violeta", "Rosa blanca", "Jazmín", "Vainilla"],
+  stock: true,
+  precio: 50000,
+  imagen: "/perfumes/mayar.jpg",
 },
 {
   nombre: "AL OUD NOBLE BLUSH",
