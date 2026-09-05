@@ -96,7 +96,7 @@ export const decants = [
   marca: "Afnan",
   descripcion: "Decant original de 5 ml.",
   stock: true,
-  precio: 8000,
+  precio: 9000,
   imagen: "/decants/9pm-night-out.jpg",
 },
 ];
