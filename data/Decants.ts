@@ -21,7 +21,7 @@ export const decants = [
 },
 {
   tipo: "Decant",
-  nombre: "SPECTRE MALACHITE",
+  nombre: "SCEPTRE MALACHITE",
   categoria: "Árabe",
   marca: "French Avenue",
   descripcion: "Decant original de 5 ml.",
@@ -98,5 +98,15 @@ export const decants = [
   stock: true,
   precio: 9000,
   imagen: "/decants/9pm-night-out.jpg",
+},
+{
+  tipo: "Decant",
+  nombre: "INSTANT CRUSH",
+  categoria: "Nicho",
+  marca: "Mancera",
+  descripcion: "Decant original de 5 ml.",
+  stock: true,
+  precio: 12000,
+  imagen: "/decants/instant-crush.jpg",
 },
 ];

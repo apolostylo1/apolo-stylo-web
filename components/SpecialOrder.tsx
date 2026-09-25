@@ -31,7 +31,7 @@ export default function SpecialOrder() {
         </div>
 
         <a
-          href="https://wa.me/5491122823596?text=Hola%20Apolo%20Stylo,%20quisiera%20consultar%20por%20un%20perfume%20que%20no%20figura%20en%20el%20catálogo."
+          href="https://wa.me/5491122823596?text=Buenas,%20quisiera%20consultar%20por%20un%20perfume%20que%20no%20figura%20en%20el%20catálogo."
           target="_blank"
           rel="noopener noreferrer"
           className="mx-auto mt-10 inline-flex items-center gap-3 rounded-xl bg-[#D4AF37] px-8 py-4 text-lg font-bold text-black transition hover:scale-105"
