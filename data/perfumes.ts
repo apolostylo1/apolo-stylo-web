@@ -336,7 +336,7 @@ export const perfumes = [
   nombre: "TROPICAL VIBE",
   tipo: "Perfume",
   categoria: "Árabe",
-  marca: "Ryhaan",
+  marca: "Rayhaan",
   descripcion: "Exótico, tropical y muy llamativo.",
   notas: ["Maracuyá", "Piña", "Coco", "Vainilla", "Almizcle"],
   stock: true,
