@@ -97,8 +97,19 @@ export const perfumes = [
   descripcion: "Fresco, cítrico y sofisticado.",
   notas: ["Pomelo", "Limón", "Menta", "Jengibre", "Sándalo", "Vetiver"],
   stock: true,
-  precio: 77000,
+  precio: 75000,
   imagen: "/perfumes/club-de-nuit-iconic.jpg",
+},
+{
+  nombre: "CLUB DE NUIT WOMAN",
+  tipo: "Perfume",
+  categoria: "Árabe",
+  marca: "Armaf",
+  descripcion: "Floral, frutal y elegante.",
+  notas: ["Naranja", "Durazno", "Rosa", "Jazmín", "Vainilla", "Almizcle"],
+  stock: true,
+  precio: 68000,
+  imagen: "/perfumes/club-de-nuit-woman.jpg",
 },
 {
   nombre: "Emaan",
@@ -111,7 +122,6 @@ export const perfumes = [
   precio: 50000,
   imagen: "/perfumes/emaan.jpg",
 },
-
 {
   nombre: "HAWAS FIRE",
   tipo: "Perfume",
@@ -131,7 +141,7 @@ export const perfumes = [
   descripcion: "Fresco, acuático y ligeramente dulce, con un fondo almizclado.",
   notas: ["Manzana", "Limón", "Bergamota", "Ciruela", "Almizcle", "Ámbar"],
   stock: true,
-  precio: 55000,
+  precio: 57000,
   imagen: "/perfumes/hawas-for-him.jpg",
 },
 {
@@ -264,7 +274,7 @@ export const perfumes = [
   descripcion: "Fresco y acuático para cualquier ocasión.",
   notas: ["Pomelo", "Mandarina", "Lavanda", "Notas Marinas", "Vetiver"],
   stock: true,
-  precio: 66000,
+  precio: 62000,
   imagen: "/perfumes/odyssey-aqua.jpg",
 },
 {
@@ -352,7 +362,7 @@ export const perfumes = [
   descripcion: "Cítrico, frutal y aromático, con un fondo ambarado y amaderado.",
   notas: ["Mandarina verde", "Bergamota", "Notas aromáticas", "Lavanda"],
   stock: true,
-  precio: 50000,
+  precio: 52000,
   imagen: "/perfumes/sceptre-malachite.jpg",
 },
 {
@@ -418,7 +428,7 @@ export const perfumes = [
   descripcion: "Muy dulce con notas frutales.",
   notas: ["Frutos Rojos", "Mandarina", "Caramelo", "Vainilla", "Almizcle"],
   stock: true,
-  precio: 50000,
+  precio: 55000,
   imagen: "/perfumes/yara-candy.jpg",
 },
 {
@@ -429,12 +439,23 @@ export const perfumes = [
   descripcion: "Floral, femenino y delicado.",
   notas: ["Orquídea", "Heliotropo", "Mandarina", "Vainilla", "Sándalo"],
   stock: true,
-  precio: 54000,
+  precio: 57000,
   imagen: "/perfumes/yara-rosa.jpg",
 },
 
 // ================= DISEÑADOR =================
 
+{
+  nombre: "LE BEAU LE PARFUM",
+  tipo: "Perfume",
+  categoria: "Árabe",
+  marca: "Jean Paul Gaultier",
+  descripcion: "Dulce, amaderado y tropical.",
+  notas: ["Coco", "Piña", "Haba Tonka", "Madera", "Ámbar"],
+  stock: true,
+  precio: 195000,
+  imagen: "/perfumes/le-beau-le-parfum.jfif",
+},
 {
   nombre: "TESTER ICON EDT",
   tipo: "Perfume",
@@ -442,7 +463,7 @@ export const perfumes = [
   marca: "Antonio Banderas",
   descripcion: "Fragancia masculina fresca y elegante.",
   notas: ["Pomelo", "Pimienta Negra", "Lavanda", "Salvia", "Musgo"],
-  stock: true,
+  stock: false,
   precio: 41000,
   imagen: "/perfumes/tester-icon-edt.jpg",
 },
