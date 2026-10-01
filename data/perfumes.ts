@@ -448,13 +448,13 @@ export const perfumes = [
 {
   nombre: "LE BEAU LE PARFUM",
   tipo: "Perfume",
-  categoria: "Árabe",
+  categoria: "Diseñador",
   marca: "Jean Paul Gaultier",
   descripcion: "Dulce, amaderado y tropical.",
   notas: ["Coco", "Piña", "Haba Tonka", "Madera", "Ámbar"],
   stock: true,
   precio: 195000,
-  imagen: "/perfumes/le-beau-le-parfum.jfif",
+  imagen: "/perfumes/le-beau-le-parfum.jpg",
 },
 {
   nombre: "TESTER ICON EDT",
