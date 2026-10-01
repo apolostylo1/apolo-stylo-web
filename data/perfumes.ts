@@ -198,7 +198,7 @@ export const perfumes = [
   notas: ["Jengibre", "Pomelo", "Bergamota", "Romero", "Notas acuáticas"],
   stock: true,
   precio: 48000,
-  imagen: "/perfumes/jean-lowe-immortal.jpg",
+  imagen: "/perfumes/jean-immortal.jpg",
 },
 {
   nombre: "KHAMRAH QAHWA",
