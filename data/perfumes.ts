@@ -9,7 +9,7 @@ export const perfumes = [
   descripcion: "Fragancia fresca, frutal y versátil. Ideal para uso diario.",
   notas: ["Manzana", "Canela", "Lavanda silvestre", "Pachulí", "Naranja", "Cedro"],
   stock: true,
-  precio: 62000,
+  precio: 60000,
   imagen: "/perfumes/9am.jpg",
 },
 { 
@@ -241,7 +241,7 @@ export const perfumes = [
   descripcion: "Fragancia moderna con excelente rendimiento.",
   notas: ["Lavanda", "Menta", "Salvia", "Tabaco", "Vainilla", "Haba Tonka"],
   stock: true,
-  precio: 58000,
+  precio: 60000,
   imagen: "/perfumes/lattafa-the-kingdom.jpg",
 },
 {
@@ -407,7 +407,7 @@ export const perfumes = [
   notas: ["Cardamomo", "Toffee", "Amberwood"],
   stock: true,
   precio: 72000,
-  imagen: "/perfumes/rayhaan-wolf.jpg",
+  imagen: "/perfumes/wolf.jpg",
 },
 {
   nombre: "YARA MOI",
@@ -428,8 +428,19 @@ export const perfumes = [
   descripcion: "Muy dulce con notas frutales.",
   notas: ["Frutos Rojos", "Mandarina", "Caramelo", "Vainilla", "Almizcle"],
   stock: true,
-  precio: 55000,
+  precio: 56000,
   imagen: "/perfumes/yara-candy.jpg",
+},
+{
+  nombre: "YARA ELIXIR",
+  tipo: "Perfume",
+  categoria: "Árabe",
+  marca: "Lattafa",
+  descripcion: "Dulce, frutal y cremoso, con un fondo cálido y avainillado.",
+  notas: ["Fresa", "Grosella negra", "Caramelo", "Vainilla", "Ámbar", "Almizcle"],
+  stock: true,
+  precio: 64000,
+  imagen: "/perfumes/yara-elixir.jpg",
 },
 {
   nombre: "YARA ROSA",
@@ -439,9 +450,10 @@ export const perfumes = [
   descripcion: "Floral, femenino y delicado.",
   notas: ["Orquídea", "Heliotropo", "Mandarina", "Vainilla", "Sándalo"],
   stock: true,
-  precio: 57000,
+  precio: 60000,
   imagen: "/perfumes/yara-rosa.jpg",
 },
+
 
 // ================= DISEÑADOR =================
 
