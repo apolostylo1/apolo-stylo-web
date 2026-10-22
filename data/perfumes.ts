@@ -20,7 +20,7 @@ export const perfumes = [
   descripcion: "Dulce, avainillado y especiado. Excelente para la noche.",
   notas: ["Manzana", "Canela", "Lavanda", "Flor de Azahar", "Vainilla", "Ámbar", "Pachulí"],
   stock: true,
-  precio: 60000,
+  precio: 62000,
   imagen: "/perfumes/9pm.jpg",
 },
 {
@@ -75,7 +75,7 @@ export const perfumes = [
   descripcion: "Cálido, amaderado y con notas avainilladas.",
   notas: ["Pimienta Rosa", "Lavanda", "Cacao", "Vainilla Bourbon", "Ámbar", "Maderas"],
   stock: true,
-  precio: 66000,
+  precio: 72000,
   imagen: "/perfumes/asad-bourbon.jpg",
 },
 {
@@ -97,7 +97,7 @@ export const perfumes = [
   descripcion: "Fresco, cítrico y sofisticado.",
   notas: ["Pomelo", "Limón", "Menta", "Jengibre", "Sándalo", "Vetiver"],
   stock: true,
-  precio: 75000,
+  precio: 78000,
   imagen: "/perfumes/club-de-nuit-iconic.jpg",
 },
 {
@@ -108,7 +108,7 @@ export const perfumes = [
   descripcion: "Floral, frutal y elegante.",
   notas: ["Naranja", "Durazno", "Rosa", "Jazmín", "Vainilla", "Almizcle"],
   stock: true,
-  precio: 68000,
+  precio: 70000,
   imagen: "/perfumes/club-de-nuit-woman.jpg",
 },
 {
@@ -163,7 +163,7 @@ export const perfumes = [
   descripcion: "Tropical, frutal y fresco, con un carácter dulce y vibrante.",
   notas: ["Piña", "Maracuyá", "Coco", "Limón", "Jazmín", "Almizcle", "Ámbar"],
   stock: true,
-  precio: 70000,
+  precio: 72000,
   imagen: "/perfumes/hawas-tropical.jpg",
 },
 
@@ -175,7 +175,7 @@ export const perfumes = [
   descripcion: "Elegante, cremoso y especiado con maderas y ámbar.",
   notas: ["Canela", "Lavanda", "Iris", "Benjuí", "Vainilla", "Ámbar", "Cedro", "Sándalo"],
   stock: true,
-  precio: 58000,
+  precio: 64000,
   imagen: "/perfumes/his-confession.jpg",
 },
 {
@@ -208,7 +208,7 @@ export const perfumes = [
   descripcion: "Canela, café y vainilla. Muy duradero.",
   notas: ["Canela", "Cardamomo", "Café", "Praliné", "Vainilla", "Benjuí"],
   stock: false,
-  precio: 52000,
+  precio: 55000,
   imagen: "/perfumes/khamrah-qahwa.jpg",
 },
 {
@@ -241,7 +241,7 @@ export const perfumes = [
   descripcion: "Fragancia moderna con excelente rendimiento.",
   notas: ["Lavanda", "Menta", "Salvia", "Tabaco", "Vainilla", "Haba Tonka"],
   stock: true,
-  precio: 60000,
+  precio: 62000,
   imagen: "/perfumes/lattafa-the-kingdom.jpg",
 },
 {
@@ -263,7 +263,7 @@ export const perfumes = [
   descripcion: "Dulce, cremoso y floral con vainilla y almizcles suaves.",
   notas: ["Rosa", "Lichi", "Pera", "Peonía", "Vainilla", "Ámbar"],
   stock: true,
-  precio: 52000,
+  precio: 50000,
   imagen: "/perfumes/noble-blush.jpg",
 },
 {
@@ -351,7 +351,7 @@ export const perfumes = [
   descripcion: "Inspirado en Dior Sauvage.",
   notas: ["Bergamota", "Pimienta", "Lavanda", "Ambroxan", "Cedro"],
   stock: false,
-  precio: 50000,
+  precio: 54000,
   imagen: "/perfumes/salvo-edp.jpg",
 },
 {
@@ -417,7 +417,7 @@ export const perfumes = [
   descripcion: "Dulce, floral y cremoso.",
   notas: ["Jazmín", "Durazno", "Caramelo", "Ámbar", "Sándalo"],
   stock: true,
-  precio: 50000,
+  precio: 52000,
   imagen: "/perfumes/yara-moi.jpg",
 },
 {
@@ -500,6 +500,17 @@ export const perfumes = [
   stock: false,
   precio: 165000,
   imagen: "/perfumes/azzaro-the-most-wanted.jpg",
+},
+{
+  nombre: "VERSACE EROS FLAME",
+  tipo: "Perfume",
+  categoria: "Diseñador",
+  marca: "Versace",
+  descripcion: "Cítrico, especiado, con un fondo cálido y dulce.",
+  notas: ["Limón", "Mandarina", "Vainilla", "Haba tonka", "Maderas"],
+  stock: true,
+  precio: 140000,
+  imagen: "/perfumes/versace-eros-flame.jpg",
 },
 
 // ================= NICHO =================
