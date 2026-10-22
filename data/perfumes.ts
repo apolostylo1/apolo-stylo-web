@@ -118,7 +118,7 @@ export const perfumes = [
   marca: "Lattafa",
   descripcion: "Fragancia floral, dulce. Ideal para uso diario y ocasiones especiales.",
   notas: ["Limón", "Grosella negra", "Azahar", "Rosa", "Jazmín", "Vainilla", "Pachulí"],
-  stock: true,
+  stock: false,
   precio: 50000,
   imagen: "/perfumes/emaan.jpg",
 },
