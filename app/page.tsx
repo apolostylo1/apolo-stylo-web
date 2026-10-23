@@ -1,5 +1,6 @@
 import Navbar from "@/components/navbar/Navbar";
 import Hero from "@/components/hero/Hero";
+import FeaturedCarousel from "@/components/products/FeaturedCarousel";
 import Catalog from "@/components/products/Catalog";
 import SpecialOrder from "@/components/SpecialOrder";
 import WhatsappButton from "@/components/whatsapp/WhatsappButton";
@@ -10,6 +11,7 @@ export default function Home() {
     <main className="bg-[#0D1117] text-white">
       <Navbar />
       <Hero />
+      <FeaturedCarousel />
       <Catalog />
       <SpecialOrder />
       <WhatsappButton />

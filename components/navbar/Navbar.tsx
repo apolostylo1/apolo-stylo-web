@@ -16,19 +16,19 @@ export default function Navbar() {
         {/* Menú escritorio */}
         <ul className="hidden gap-8 text-white md:flex">
           <li>
-            <a href="#inicio" className="transition hover:text-[#D4AF37]">
+            <a href="/#inicio" className="transition hover:text-[#D4AF37]">
               Inicio
             </a>
           </li>
 
           <li>
-            <a href="#catalogo" className="transition hover:text-[#D4AF37]">
+            <a href="/#catalogo" className="transition hover:text-[#D4AF37]">
               Catálogo
             </a>
           </li>
 
           <li>
-            <a href="#contacto" className="transition hover:text-[#D4AF37]">
+            <a href="/#contacto" className="transition hover:text-[#D4AF37]">
               Contacto
             </a>
           </li>
@@ -49,7 +49,7 @@ export default function Navbar() {
           <ul className="flex flex-col items-center gap-6 py-6 text-white">
             <li>
               <a
-                href="#inicio"
+                href="/#inicio"
                 onClick={() => setMenuAbierto(false)}
               >
                 Inicio
@@ -58,16 +58,22 @@ export default function Navbar() {
 
             <li>
               <a
-                href="#catalogo"
+                href="/#catalogo"
                 onClick={() => setMenuAbierto(false)}
               >
                 Catálogo
               </a>
             </li>
+            <a
+  href="/promociones"
+  className="transition hover:text-[#D4AF37]"
+>
+  Promociones
+</a>
 
             <li>
               <a
-                href="#contacto"
+                href="/#contacto"
                 onClick={() => setMenuAbierto(false)}
               >
                 Contacto
