@@ -1,23 +1,28 @@
 
 "use client";
 
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import Image from "next/image";
+
 import { perfumes } from "@/data/perfumes";
+import ProductModal from "@/components/ProductModal";
 
 const nombresDestacados = [
+  "Arabians tonka",
   "9PM",
   "Hawas Ice",
-  "Le beau le parfum",
   "Odyssey Sky Mandarin",
-  "Arabians tonka",
+  "Le beau le Parfum",
   "The Kingdom",
+  "Yara Rosa",
+
 ];
 
 export default function FeaturedCarousel() {
   const carouselRef = useRef<HTMLDivElement>(null);
+  const [selectedPerfume, setSelectedPerfume] = useState<any>(null);
 
-  // Busca los productos respetando el orden elegido y el stock.
+  // Mostrar únicamente los perfumes elegidos que tengan stock.
   const destacados = nombresDestacados
     .map((nombre) =>
       perfumes.find(
@@ -39,11 +44,10 @@ export default function FeaturedCarousel() {
 
   return (
     <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
+      {/* Encabezado */}
       <div className="mb-8 flex items-end justify-between gap-4">
         <div>
-          <p className="mb-2 text-xs uppercase tracking-[0.3em] text-[#D4AF37]">
-            Selección exclusiva
-          </p>
+        
 
           <h2 className="text-3xl font-bold text-white md:text-4xl">
             Perfumes destacados
@@ -54,6 +58,7 @@ export default function FeaturedCarousel() {
           </p>
         </div>
 
+        {/* Flechas para computadora */}
         <div className="hidden gap-3 sm:flex">
           <button
             type="button"
@@ -75,6 +80,7 @@ export default function FeaturedCarousel() {
         </div>
       </div>
 
+      {/* Carrusel */}
       <div
         ref={carouselRef}
         className="flex snap-x snap-mandatory gap-5 overflow-x-auto scroll-smooth pb-5 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden"
@@ -84,6 +90,7 @@ export default function FeaturedCarousel() {
             key={perfume.nombre}
             className="w-[240px] min-w-[240px] snap-start overflow-hidden rounded-2xl border border-[#D4AF37]/20 bg-[#161B22] transition duration-300 hover:-translate-y-1 hover:border-[#D4AF37]/70 sm:w-[270px] sm:min-w-[270px]"
           >
+            {/* Imagen */}
             <div className="flex h-56 items-center justify-center bg-neutral-100 p-4">
               <Image
                 src={perfume.imagen}
@@ -94,6 +101,7 @@ export default function FeaturedCarousel() {
               />
             </div>
 
+            {/* Información */}
             <div className="space-y-3 p-5">
               <p className="text-xs uppercase tracking-widest text-gray-400">
                 {perfume.categoria}
@@ -107,12 +115,13 @@ export default function FeaturedCarousel() {
                 ${perfume.precio.toLocaleString("es-AR")}
               </p>
 
-              <a
-                href="/#catalogo"
-                className="block rounded-xl bg-[#D4AF37] py-3 text-center text-sm font-bold text-black transition hover:bg-yellow-400"
+              <button
+                type="button"
+                onClick={() => setSelectedPerfume(perfume)}
+                className="w-full rounded-xl bg-[#D4AF37] py-3 text-sm font-bold text-black transition hover:bg-yellow-400"
               >
-                Ver en catálogo
-              </a>
+                Ver detalles
+              </button>
             </div>
           </article>
         ))}
@@ -121,6 +130,14 @@ export default function FeaturedCarousel() {
       <p className="mt-1 text-center text-xs text-gray-500 sm:hidden">
         Deslizá para descubrir más perfumes →
       </p>
+
+      {/* Ventana de detalles del catálogo */}
+      {selectedPerfume && (
+        <ProductModal
+          perfume={selectedPerfume}
+          onClose={() => setSelectedPerfume(null)}
+        />
+      )}
     </section>
   );
 }

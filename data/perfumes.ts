@@ -449,7 +449,7 @@ export const perfumes = [
   marca: "Lattafa",
   descripcion: "Floral, femenino y delicado.",
   notas: ["Orquídea", "Heliotropo", "Mandarina", "Vainilla", "Sándalo"],
-  stock: false,
+  stock: true,
   precio: 60000,
   imagen: "/perfumes/yara-rosa.jpg",
 },
