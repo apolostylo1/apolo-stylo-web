@@ -256,6 +256,17 @@ export const perfumes = [
   imagen: "/perfumes/mayar.jpg",
 },
 {
+  nombre: "MOMENTO",
+  tipo: "Perfume",
+  categoria: "Árabe",
+  marca: "Riiffs",
+  descripcion: "Dulce, especiado y amaderado, con un toque de rosa y caramelo.",
+  notas: ["Azúcar", "Azafrán", "Haba Tonka", "Rosa", "Oud", "Madera Ambarada"],
+  stock: true,
+  precio: 76000,
+  imagen: "/perfumes/momento.jpg",
+},
+{
   nombre: "AL OUD NOBLE BLUSH",
   tipo: "Perfume",
   categoria: "Árabe",
