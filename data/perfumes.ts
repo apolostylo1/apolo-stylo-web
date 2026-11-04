@@ -42,7 +42,7 @@ export const perfumes = [
   descripcion: "Fragancia intensa con gran duración y excelente proyección.",
   notas: ["Bergamota", "Jengibre", "Ámbar Gris", "Almizcle", "Maderas"],
   stock: false,
-  precio: 63000,
+  precio: 85000,
   imagen: "/perfumes/aether-extrait.jpg",
 },
 {
@@ -152,7 +152,7 @@ export const perfumes = [
   descripcion: "Fresco, acuático y cítrico con un fondo ambarado.",
   notas: ["Bergamota", "Manzana", "Limón", "Flor de Azahar", "Cardamomo", "Ámbar Gris", "Almizcle", "Madera"],
   stock: true,
-  precio: 75000,
+  precio: 77000,
   imagen: "/perfumes/hawas-ice.jpg",
 },
 {
@@ -197,7 +197,7 @@ export const perfumes = [
   descripcion: "Fresco, cítrico y especiado, con un fondo ambarado",
   notas: ["Jengibre", "Pomelo", "Bergamota", "Romero", "Notas acuáticas"],
   stock: true,
-  precio: 48000,
+  precio: 50000,
   imagen: "/perfumes/jean-immortal.jpg",
 },
 {
@@ -208,7 +208,7 @@ export const perfumes = [
   descripcion: "Canela, café y vainilla. Muy duradero.",
   notas: ["Canela", "Cardamomo", "Café", "Praliné", "Vainilla", "Benjuí"],
   stock: false,
-  precio: 55000,
+  precio: 58000,
   imagen: "/perfumes/khamrah-qahwa.jpg",
 },
 {
@@ -285,7 +285,7 @@ export const perfumes = [
   descripcion: "Fresco y acuático para cualquier ocasión.",
   notas: ["Pomelo", "Mandarina", "Lavanda", "Notas Marinas", "Vetiver"],
   stock: true,
-  precio: 62000,
+  precio: 63000,
   imagen: "/perfumes/odyssey-aqua.jpg",
 },
 {
@@ -318,7 +318,7 @@ export const perfumes = [
   descripcion: "Cítrico, aromático y moderno con un toque amaderado.",
   notas: ["Naranja", "Bergamota", "Jengibre", "Lavanda", "Menta", "Cedro", "Vetiver", "Almizcle"],
   stock: true,
-  precio: 55000,
+  precio: 56000,
   imagen: "/perfumes/odyssey-mega.jpg",
 },
 {
@@ -372,7 +372,7 @@ export const perfumes = [
   marca: "Maison Alhambra",
   descripcion: "Cítrico, frutal y aromático, con un fondo ambarado y amaderado.",
   notas: ["Mandarina verde", "Bergamota", "Notas aromáticas", "Lavanda"],
-  stock: true,
+  stock: false,
   precio: 52000,
   imagen: "/perfumes/sceptre-malachite.jpg",
 },
@@ -416,7 +416,7 @@ export const perfumes = [
   marca: "Rayhaan",
   descripcion: "Dulce, cálido y especiado, con un perfil gourmand y amaderado.",
   notas: ["Cardamomo", "Toffee", "Amberwood"],
-  stock: true,
+  stock: false,
   precio: 72000,
   imagen: "/perfumes/wolf.jpg",
 },
@@ -439,7 +439,7 @@ export const perfumes = [
   descripcion: "Muy dulce con notas frutales.",
   notas: ["Frutos Rojos", "Mandarina", "Caramelo", "Vainilla", "Almizcle"],
   stock: true,
-  precio: 56000,
+  precio: 58000,
   imagen: "/perfumes/yara-candy.jpg",
 },
 {
@@ -461,7 +461,7 @@ export const perfumes = [
   descripcion: "Floral, femenino y delicado.",
   notas: ["Orquídea", "Heliotropo", "Mandarina", "Vainilla", "Sándalo"],
   stock: true,
-  precio: 60000,
+  precio: 62000,
   imagen: "/perfumes/yara-rosa.jpg",
 },
 
