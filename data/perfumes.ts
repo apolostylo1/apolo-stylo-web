@@ -20,7 +20,7 @@ export const perfumes = [
   descripcion: "Dulce, avainillado y especiado. Excelente para la noche.",
   notas: ["Manzana", "Canela", "Lavanda", "Flor de Azahar", "Vainilla", "Ámbar", "Pachulí"],
   stock: true,
-  precio: 62000,
+  precio: 68000,
   imagen: "/perfumes/9pm.jpg",
 },
 {
@@ -31,7 +31,7 @@ export const perfumes = [
   descripcion: "Dulce, especiado y nocturno con vainilla y ámbar.",
   notas: ["Manzana", "Canela", "Lavanda", "Flor de Azahar", "Vainilla", "Ámbar", "Pachulí"],
   stock: true,
-  precio: 100000,
+  precio: 110000,
   imagen: "/perfumes/9pm-night-out.jpg",
 },
 {
@@ -53,7 +53,7 @@ export const perfumes = [
   descripcion: "Perfume dulce, tropical y muy elegante.",
   notas: ["Bergamota", "Melón", "Piña", "Ámbar", "Almizcle", "Vainilla"],
   stock: true,
-  precio: 100000,
+  precio: 110000,
   imagen: "/perfumes/amber-oud-gold-edition.jpg",
 },
 {
@@ -64,7 +64,7 @@ export const perfumes = [
   descripcion: "Aromático fresco con excelente rendimiento.",
   notas: ["Pomelo", "Bergamota", "Notas Marinas", "Lavanda", "Vetiver", "Ámbar Gris"],
   stock: true,
-  precio: 100000,
+  precio: 110000,
   imagen: "/perfumes/amber-oud-aqua-dubai.jpg",
 },
 {
@@ -97,7 +97,7 @@ export const perfumes = [
   descripcion: "Fresco, cítrico y sofisticado.",
   notas: ["Pomelo", "Limón", "Menta", "Jengibre", "Sándalo", "Vetiver"],
   stock: true,
-  precio: 78000,
+  precio: 85000,
   imagen: "/perfumes/club-de-nuit-iconic.jpg",
 },
 {
@@ -108,7 +108,7 @@ export const perfumes = [
   descripcion: "Floral, frutal y elegante.",
   notas: ["Naranja", "Durazno", "Rosa", "Jazmín", "Vainilla", "Almizcle"],
   stock: true,
-  precio: 70000,
+  precio: 77000,
   imagen: "/perfumes/club-de-nuit-woman.jpg",
 },
 {
@@ -119,7 +119,7 @@ export const perfumes = [
   descripcion: "Fresco, especiado, amaderado, intenso y sofisticado.",
   notas: ["Bergamota", "Jazmín", "Lavanda", "Azafrán", "Ambroxan", "Ámbar", "Cedro",],
   stock: true,
-  precio: 76000,
+  precio: 82000,
   imagen: "/perfumes/club-de-nuit-urban-man-elixir.jpg",
 },
 {
@@ -141,7 +141,7 @@ export const perfumes = [
   descripcion: "Fragancia intensa con excelente proyección.",
   notas: ["Canela", "Bergamota", "Flor de Azahar", "Ámbar", "Incienso"],
   stock: true,
-  precio: 74000,
+  precio: 80000,
   imagen: "/perfumes/hawas-fire.jpg",
 },
 {
@@ -152,7 +152,7 @@ export const perfumes = [
   descripcion: "Fresco, acuático y ligeramente dulce, con un fondo almizclado.",
   notas: ["Manzana", "Limón", "Bergamota", "Ciruela", "Almizcle", "Ámbar"],
   stock: true,
-  precio: 57000,
+  precio:  62000,
   imagen: "/perfumes/hawas-for-him.jpg",
 },
 {
@@ -163,7 +163,7 @@ export const perfumes = [
   descripcion: "Fresco, acuático y cítrico con un fondo ambarado.",
   notas: ["Bergamota", "Manzana", "Limón", "Flor de Azahar", "Cardamomo", "Ámbar Gris", "Almizcle", "Madera"],
   stock: true,
-  precio: 77000,
+  precio: 85000,
   imagen: "/perfumes/hawas-ice.jpg",
 },
 {
@@ -173,8 +173,8 @@ export const perfumes = [
   marca: "Rasasi",
   descripcion: "Frutal y tropical con un fondo dulce y amaderado.",
   notas: ["Ananá", "coco", "Iris", "Ámbar", "Haba Tonka", "Almizcle",],
-  stock: true,
-  precio: 70000,
+  stock: false,
+  precio: 72000,
   imagen: "/perfumes/hawas-malibu.jpg",
 },
 {
@@ -185,7 +185,7 @@ export const perfumes = [
   descripcion: "Tropical, frutal y fresco, con un carácter dulce y vibrante.",
   notas: ["Piña", "Maracuyá", "Coco", "Limón", "Jazmín", "Almizcle", "Ámbar"],
   stock: true,
-  precio: 72000,
+  precio: 78000,
   imagen: "/perfumes/hawas-tropical.jpg",
 },
 
@@ -197,7 +197,7 @@ export const perfumes = [
   descripcion: "Elegante, cremoso y especiado con maderas y ámbar.",
   notas: ["Canela", "Lavanda", "Iris", "Benjuí", "Vainilla", "Ámbar", "Cedro", "Sándalo"],
   stock: true,
-  precio: 64000,
+  precio: 75000,
   imagen: "/perfumes/his-confession.jpg",
 },
 {
@@ -208,7 +208,7 @@ export const perfumes = [
   descripcion: "Dulce y especiado con un toque moderno.",
   notas: ["Piña", "Crème Brûlée", "Canela", "Vainilla", "Cachemira"],
   stock: true,
-  precio: 50000,
+  precio: 54000,
   imagen: "/perfumes/honor-and-glory.jpg",
 },
 {
@@ -219,7 +219,7 @@ export const perfumes = [
   descripcion: "Fresco, cítrico y especiado, con un fondo ambarado",
   notas: ["Jengibre", "Pomelo", "Bergamota", "Romero", "Notas acuáticas"],
   stock: true,
-  precio: 50000,
+  precio: 55000,
   imagen: "/perfumes/jean-immortal.jpg",
 },
 {
@@ -229,7 +229,7 @@ export const perfumes = [
   marca: "Lattafa",
   descripcion: "Canela, café y vainilla. Muy duradero.",
   notas: ["Canela", "Cardamomo", "Café", "Praliné", "Vainilla", "Benjuí"],
-  stock: false,
+  stock: false, 
   precio: 58000,
   imagen: "/perfumes/khamrah-qahwa.jpg",
 },
@@ -241,7 +241,7 @@ export const perfumes = [
   descripcion: "Ámbar, canela y vainilla. Dulce y elegante.",
   notas: ["Canela", "Nuez Moscada", "Dátiles", "Praliné", "Vainilla", "Mirra"],
   stock: true,
-  precio: 54000,
+  precio: 60000,
   imagen: "/perfumes/khamrah-normal.jpg",
 },
 {
@@ -252,7 +252,7 @@ export const perfumes = [
   descripcion: ". Dulce y elegante. Perfecto para noches", 
   notas: ["Canela", "vainilla", "praliné", "cardamomo"], 
   stock: true,
-  precio: 88000, 
+  precio: 95000,
   imagen: "/perfumes/liquid-brun.jpg", 
 },
 {
@@ -263,7 +263,7 @@ export const perfumes = [
   descripcion: "Fragancia moderna con excelente rendimiento.",
   notas: ["Lavanda", "Menta", "Salvia", "Tabaco", "Vainilla", "Haba Tonka"],
   stock: true,
-  precio: 62000,
+  precio: 68000,
   imagen: "/perfumes/lattafa-the-kingdom.jpg",
 },
 {
@@ -274,7 +274,7 @@ export const perfumes = [
   descripcion: "Fragancia floral, frutal y dulce. Femenina, fresca y versátil, ideal para el uso diario.",
   notas: ["Lichi", "Frambuesa", "Hoja de violeta", "Rosa blanca", "Jazmín", "Vainilla"],
   stock: true,
-  precio: 50000,
+  precio: 55000,
   imagen: "/perfumes/mayar.jpg",
 },
 {
@@ -285,7 +285,7 @@ export const perfumes = [
   descripcion: "Dulce, especiado y amaderado, con un toque de rosa y caramelo.",
   notas: ["Azúcar", "Azafrán", "Haba Tonka", "Rosa", "Oud", "Madera Ambarada"],
   stock: true,
-  precio: 76000,
+  precio: 85000,
   imagen: "/perfumes/momento.jpg",
 },
 {
@@ -296,7 +296,7 @@ export const perfumes = [
   descripcion: "Dulce, cremoso y floral con vainilla y almizcles suaves.",
   notas: ["Rosa", "Lichi", "Pera", "Peonía", "Vainilla", "Ámbar"],
   stock: true,
-  precio: 50000,
+  precio: 54000,
   imagen: "/perfumes/noble-blush.jpg",
 },
 {
@@ -307,7 +307,7 @@ export const perfumes = [
   descripcion: "Fresco y acuático para cualquier ocasión.",
   notas: ["Pomelo", "Mandarina", "Lavanda", "Notas Marinas", "Vetiver"],
   stock: true,
-  precio: 63000,
+  precio: 68000,
   imagen: "/perfumes/odyssey-aqua.jpg",
 },
 {
@@ -318,7 +318,7 @@ export const perfumes = [
   descripcion: "Notas tropicales con gran frescura.",
   notas: ["Mango", "Piña", "Coco", "Jazmín", "Almizcle"],
   stock: true,
-  precio: 54000,
+  precio: 58000,
   imagen: "/perfumes/odyssey-bahamas-tropical.jpg",
 },
 {
@@ -329,7 +329,7 @@ export const perfumes = [
   descripcion: "Limpio, elegante y muy versátil.",
   notas: ["Limón", "Lavanda", "Neroli", "Cedro", "Almizcle Blanco"],
   stock: true,
-  precio: 57000,
+  precio: 66000,
   imagen: "/perfumes/odyssey-home-white.jpg",
 },
 {
@@ -340,7 +340,7 @@ export const perfumes = [
   descripcion: "Cítrico, aromático y moderno con un toque amaderado.",
   notas: ["Naranja", "Bergamota", "Jengibre", "Lavanda", "Menta", "Cedro", "Vetiver", "Almizcle"],
   stock: true,
-  precio: 56000,
+  precio: 60000,
   imagen: "/perfumes/odyssey-mega.jpg",
 },
 {
@@ -351,7 +351,7 @@ export const perfumes = [
   descripcion: "Cítrico con notas de mandarina.",
   notas: ["Mandarina", "Bergamota", "Jengibre", "Ámbar", "Vetiver"],
   stock: true,
-  precio: 60000,
+  precio: 66000,  
   imagen: "/perfumes/odyssey-sky-mandarin.jpg",
 },
 {
@@ -362,7 +362,7 @@ export const perfumes = [
   descripcion: "Frutal, cítrico y dulce, con un fondo suave de vainilla, almizcle y ámbar.",
   notas: ["Naranja", "Bergamota", "Limón", "Frutas", "Vainilla", "Almizcle", "Ámbar"],
   stock: true,
-  precio: 46000,
+  precio: 50000,
   imagen: "/perfumes/philos-pura.jpg",
 },
 {
@@ -395,7 +395,7 @@ export const perfumes = [
   descripcion: "Cítrico, frutal y aromático, con un fondo ambarado y amaderado.",
   notas: ["Mandarina verde", "Bergamota", "Notas aromáticas", "Lavanda"],
   stock: false,
-  precio: 52000,
+  precio: 58000,
   imagen: "/perfumes/sceptre-malachite.jpg",
 },
 {
@@ -406,7 +406,7 @@ export const perfumes = [
   descripcion: "Amaderado con muy buena duración.",
   notas: ["Cuero", "Azafrán", "Cedro", "Sándalo", "Ámbar"],
   stock: true,
-  precio: 54000,
+  precio: 58000,
   imagen: "/perfumes/stallion-53.jpg",
 },
 {
@@ -428,7 +428,7 @@ export const perfumes = [
   descripcion: "Lavanda, ciruela y palo santo.",
   notas: ["Lavanda", "Ciruela", "Palo Santo", "Sándalo", "Ámbar"],
   stock: true,
-  precio: 54000,
+  precio: 60000,
   imagen: "/perfumes/vintage-radio.jpg",
 },
 {
@@ -439,7 +439,7 @@ export const perfumes = [
   descripcion: "Dulce, cálido y especiado, con un perfil gourmand y amaderado.",
   notas: ["Cardamomo", "Toffee", "Amberwood"],
   stock: false,
-  precio: 72000,
+  precio: 78000,
   imagen: "/perfumes/wolf.jpg",
 },
 {
@@ -450,7 +450,7 @@ export const perfumes = [
   descripcion: "Dulce, floral y cremoso.",
   notas: ["Jazmín", "Durazno", "Caramelo", "Ámbar", "Sándalo"],
   stock: false,
-  precio: 52000,
+  precio: 57000,
   imagen: "/perfumes/yara-moi.jpg",
 },
 {
@@ -461,7 +461,7 @@ export const perfumes = [
   descripcion: "Muy dulce con notas frutales.",
   notas: ["Frutos Rojos", "Mandarina", "Caramelo", "Vainilla", "Almizcle"],
   stock: true,
-  precio: 58000,
+  precio: 65000,
   imagen: "/perfumes/yara-candy.jpg",
 },
 {
@@ -472,7 +472,7 @@ export const perfumes = [
   descripcion: "Dulce, frutal y cremoso, con un fondo cálido y avainillado.",
   notas: ["Fresa", "Grosella negra", "Caramelo", "Vainilla", "Ámbar", "Almizcle"],
   stock: true,
-  precio: 64000,
+  precio: 69000,
   imagen: "/perfumes/yara-elixir.jpg",
 },
 {
@@ -483,7 +483,7 @@ export const perfumes = [
   descripcion: "Floral, femenino y delicado.",
   notas: ["Orquídea", "Heliotropo", "Mandarina", "Vainilla", "Sándalo"],
   stock: true,
-  precio: 62000,
+  precio: 68000,
   imagen: "/perfumes/yara-rosa.jpg",
 },
 
@@ -498,7 +498,7 @@ export const perfumes = [
   descripcion: "Dulce, amaderado y tropical.",
   notas: ["Coco", "Piña", "Haba Tonka", "Madera", "Ámbar"],
   stock: true,
-  precio: 195000,
+  precio: 210000,
   imagen: "/perfumes/le-beau-le-parfum.jpg",
 },
 {
@@ -520,7 +520,7 @@ export const perfumes = [
   descripcion: "Intenso, dulce y de larga duración.",
   notas: ["Lavanda", "Cardamomo", "Incienso", "Vainilla", "Haba Tonka"],
   stock: true,
-  precio: 170000,
+  precio: 230000,
   imagen: "/perfumes/tester-invictus-victory-elixir.jpg",
 },
 {
@@ -542,7 +542,7 @@ export const perfumes = [
   descripcion: "Cítrico, especiado, con un fondo cálido y dulce.",
   notas: ["Limón", "Mandarina", "Vainilla", "Haba tonka", "Maderas"],
   stock: true,
-  precio: 140000,
+  precio: 165000,
   imagen: "/perfumes/versace-eros-flame.jpg",
 },
 
@@ -556,7 +556,7 @@ export const perfumes = [
   descripcion: "Dulce, intenso y sofisticado, con una combinación envolvente.",
   notas: ["Azafrán", "Rosa", "Oud", "Haba Tonka", "Caña de Azúcar", "Ámbar"],
   stock: true,
-  precio: 220000,
+  precio: 230000,
   imagen: "/perfumes/arabians-tonka.jpg",
 },
 ];

@@ -25,7 +25,7 @@ export const promociones: Promocion[] = [
     marca: "Karsell",
     descripcion: "Tambien se vende por separado.",
     precio: 44000,
-    precioPromo: 36000,
+    precioPromo: 38000,
     imagen: "/perfumes/combo-mascarilla-oleo.jpg",
     disponible: true,
   },
